@@ -71,6 +71,7 @@ nav {
   border: 1px solid #777;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  
 }
 
 .search-btn {
@@ -421,11 +422,27 @@ aside {
   text-size-adjust: 100%;
 }
 
+.thumbnail {
+  position: relative;
+  display: flex;
+}
+
 .thumbnail-image {
   width: 168px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+.thumbnail::before {
+  content: attr(data-duration);
+  position: absolute;
+  background-color: rgba(0, 0, 0, .85);
+  color: white;
+  font-size: 12px;
+  right:10%;
+  bottom: 12%
+}
+
 
 .channel-name,
 .metadata {
@@ -450,8 +467,3 @@ aside {
   height: 100px;
 }
 
-footer {
-  font-family: Arial, Helvetica, sans-serif;
-  bottom: 0%;
-  position: relative;
-}
