@@ -17,8 +17,7 @@ body {
   cursor: pointer;
 }
 
-nav {
-  grid-area: nav;
+header {
   position: fixed;
   top: 0%;
   display: flex;
