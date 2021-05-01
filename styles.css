@@ -28,6 +28,7 @@ header {
   height: 56px;
   justify-content: space-between;
   z-index: 1000;
+  grid-area: header;
 }
 
 .left-nav-item {
@@ -111,6 +112,7 @@ main {
   display: block;
   flex-direction: column;
   padding: 70px 24px;
+  grid-area: main;
 }
 
 main-section {
@@ -191,6 +193,7 @@ main-section {
   padding-bottom: 16px;
 }
 
+/* CONTENT1 */
 .description {
   display: flex;
   border-bottom: rgba(128, 128, 128, 0.288) solid 1px;
@@ -342,12 +345,16 @@ main-section {
   margin: 22px;
 }
 
+/* ASIDE */
+
 aside {
   display: block;
   flex-direction: column;
   width: 30%;
   padding: 50px 0;
 }
+
+/* CATEGORIES */
 
 .categories {
   padding: 16px 0px;
@@ -398,9 +405,12 @@ aside {
   color: rgb(92, 89, 89);
 }
 
-.videolist {
+/* PLAYLIST */
+
+.playlist {
   display: flex;
   flex-direction: column;
+  grid-area: playlist;
 }
 
 .video-container {
@@ -464,5 +474,24 @@ aside {
 
 .spooks {
   height: 100px;
+}
+
+@media only screen and (max-width: 999px) {
+  body {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 
+      "header"
+      "main"
+      ".playlist";
+  }
+
+  .thumbnail-image {
+    width: 130px;
+    height: 130px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
 }
 

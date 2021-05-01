@@ -1,399 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/icon?family=material-icons+Icons" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=material-icons+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
     <title>YouTube</title>
-</head>
+  </head>
 
-<body>
-
-
-    <!-- header  -->
+  <body>
+    <!-- HEADER  -->
     <header>
-        <div id="left-nav-item"> <span>
-                <a href="#"><img src="/images/menu.svg" alt="burger" class="burger-menu"></a>
-                <span>
-                    <a href="#">
-                        <img id="logo" src="/images/logo.png" alt="logo" />
-                    </a>
-                </span>
-            </span>
-        </div>
-        <div class="search-bar">
-            <form class="search-bar">
-                <input type="search" class="search-input" placeholder="Search" aria-label="search" />
-                <button type="#" class="search-btn">
-                    <a href="#">
-                        <img src="/images/magnify.svg" alt="search" />
-                    </a>
-                </button>
-            </form>
-        </div>
-        <div class="right-item">
-            <span>
-                <a href="#"><img src="/images/video-plus.svg" alt="Video-Upload" class="material-icons-top" /></a>
-            </span>
-            <span>
-                <a href="#"><img src="/images/apps.svg" alt="Apps" class="material-icons-top" /></a>
-            </span>
-            <span>
-                <a href="#"><img src="/images/bell.svg" alt="Notifications" class="material-icons-top" /></a>
-            </span>
+      <div id="left-nav-item">
+        <span>
+          <a href="#"
+            ><img src="/images/menu.svg" alt="burger" class="burger-menu"
+          /></a>
+          <span>
+            <a href="#">
+              <img id="logo" src="/images/logo.png" alt="logo" />
+            </a>
+          </span>
+        </span>
+      </div>
+      <div class="search-bar">
+        <form class="search-bar">
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Search"
+            aria-label="search"
+          />
+          <button type="#" class="search-btn">
+            <a href="#">
+              <img src="/images/magnify.svg" alt="search" />
+            </a>
+          </button>
+        </form>
+      </div>
+      <div class="right-item">
+        <span>
+          <a href="#"
+            ><img
+              src="/images/video-plus.svg"
+              alt="Video-Upload"
+              class="material-icons-top"
+          /></a>
+        </span>
+        <span>
+          <a href="#"
+            ><img src="/images/apps.svg" alt="Apps" class="material-icons-top"
+          /></a>
+        </span>
+        <span>
+          <a href="#"
+            ><img
+              src="/images/bell.svg"
+              alt="Notifications"
+              class="material-icons-top"
+          /></a>
+        </span>
 
-            <span>
-                <a href="#"><img class="login-item" src="/images/logo-me.JPG" alt="User-Logo" /></a>
-            </span>
-        </div>
+        <span>
+          <a href="#"
+            ><img class="login-item" src="/images/logo-me.JPG" alt="User-Logo"
+          /></a>
+        </span>
+      </div>
     </header>
     <!-- MAIN -->
 
     <div class="video-container">
-        <main>
-            <section class="main-content">
-                <section id="main-video">
-                    <iframe width="950" height="534" src="https://www.youtube.com/embed/Idjj1fobN7I"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </section>
-                <!-- MAIN VIDEO METADATA & BUTTONS -->
-                <section class="video-metadata">
-                    <h2 id="main-title">King Shi - I Hear Voices (Mr Echo Remix)</h2>
-                </section>
-                <section id="views-likes">
-                    <p><span id="view-count">632 views • 26 Nov 2019 </span></p>
-                    <div id="likes">
-                        <div id="likes-area">
-                            <span>
-                                <a href="#" class="like-btn"><img src="images/like.svg" alt="like"
-                                        class="material-icons" /></a>
-                            </span>
-                            <span>15</span>
-                            <span>
-                                <a href="#" class="unlike-btn"><img src="images/dislike.svg" alt="inlike"
-                                        class="material-icons" /></a></span>
-                            <span>0</span>
-                        </div>
-                        <span>
-                            <a href="#" class="share-btn"><img src="images/share.svg" alt="share"
-                                    class="material-icons" /></a>
-                        </span>
-                        <span>
-                            SHARE
-                        </span>
-                        <span>
-                            <a href="#"><img src="images/save.svg" alt="save" class="material-icons" /></a>
-                        </span>
-                        <span>
-                            SAVE
-                        </span>
-                        <span>
-                            <a href="#"><img src="images/options.svg" alt="report" class="material-icons" /></a>
-                        </span>
-                    </div>
-                </section>
-            </section>
-            <!-- SECTION1  -->
-            <section>
-                <div class="description">
-                    <a href="#">
-                        <img src="images/bestfuturemusic.JPG" alt="channel-logo" class="channel-logo"></a>
-                    <p> <span class="bfm">best future music </span>
-                        <span class="subscribers">2.89K subscribers</span>
-                        <span class="hashtags">#chillhop​ #futurelofi​ #kingshi</span>
-                        <span class="follow">Follow King Shi</span>
-                        <span class="show">SHOW MORE</span>
-                    </p>
-                </div>
-            </section>
-            <!-- SECTION2  -->
-            <section>
-                <div class="comments">
-                    <p> <span class="amount">1 comment </span>
-                        <span>
-                            <a href="#"><img src="images/sort.svg" alt="save" class="material-icons" id="sort" /></a>
-                        </span>
-                        <span class="show2">SORT BY</span>
-                    </p>
-                </div>
-            </section>
-            <!-- SECTION3  -->
-            <section>
-                <div class="icon-comment">
-                    <a href="#"><img class="login-item" src="/images/logo-me.JPG" alt="User-Logo" /></a>
-                    <p class="comment-addition">Add a public comment...</p>
-                </div>
-            </section>
-            <!-- SECTION4  -->
-            <section>
-                <div class="new-comment">
+      <main>
+        <section class="main-content">
+          <section id="main-video">
+            <iframe
+              width="950"
+              height="534"
+              src="https://www.youtube.com/embed/Idjj1fobN7I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+          <!-- MAIN VIDEO METADATA & BUTTONS -->
+          <section class="video-metadata">
+            <h2 id="main-title">King Shi - I Hear Voices (Mr Echo Remix)</h2>
+          </section>
+          <section id="views-likes">
+            <p><span id="view-count">632 views • 26 Nov 2019 </span></p>
+            <div id="likes">
+              <div id="likes-area">
+                <span>
+                  <a href="#" class="like-btn"
+                    ><img
+                      src="images/like.svg"
+                      alt="like"
+                      class="material-icons"
+                  /></a>
+                </span>
+                <span>15</span>
+                <span>
+                  <a href="#" class="unlike-btn"
+                    ><img
+                      src="images/dislike.svg"
+                      alt="inlike"
+                      class="material-icons" /></a
+                ></span>
+                <span>0</span>
+              </div>
+              <span>
+                <a href="#" class="share-btn"
+                  ><img
+                    src="images/share.svg"
+                    alt="share"
+                    class="material-icons"
+                /></a>
+              </span>
+              <span> SHARE </span>
+              <span>
+                <a href="#"
+                  ><img src="images/save.svg" alt="save" class="material-icons"
+                /></a>
+              </span>
+              <span> SAVE </span>
+              <span>
+                <a href="#"
+                  ><img
+                    src="images/options.svg"
+                    alt="report"
+                    class="material-icons"
+                /></a>
+              </span>
+            </div>
+          </section>
+        </section>
+        <!-- SECTION1  -->
+        <section>
+          <div class="description">
+            <a href="#">
+              <img
+                src="images/bestfuturemusic.JPG"
+                alt="channel-logo"
+                class="channel-logo"
+            /></a>
+            <p>
+              <span class="bfm">best future music </span>
+              <span class="subscribers">2.89K subscribers</span>
+              <span class="hashtags">#chillhop​ #futurelofi​ #kingshi</span>
+              <span class="follow">Follow King Shi</span>
+              <span class="show">SHOW MORE</span>
+            </p>
+          </div>
+        </section>
+        <!-- SECTION2  -->
+        <section>
+          <div class="comments">
+            <p>
+              <span class="amount">1 comment </span>
+              <span>
+                <a href="#"
+                  ><img
+                    src="images/sort.svg"
+                    alt="save"
+                    class="material-icons"
+                    id="sort"
+                /></a>
+              </span>
+              <span class="show2">SORT BY</span>
+            </p>
+          </div>
+        </section>
+        <!-- SECTION3  -->
+        <section>
+          <div class="icon-comment">
+            <a href="#"
+              ><img
+                class="login-item"
+                src="/images/logo-me.JPG"
+                alt="User-Logo"
+            /></a>
+            <p class="comment-addition">Add a public comment...</p>
+          </div>
+        </section>
+        <!-- SECTION4  -->
+        <section>
+          <div class="new-comment">
+            <a href="#"
+              ><img
+                class="login-item"
+                src="/images/logo-me.JPG"
+                alt="User-Logo"
+            /></a>
 
-                    <a href="#"><img class="login-item" src="/images/logo-me.JPG" alt="User-Logo" /></a>
+            <p class="user-comment">
+              <span class="user-info"
+                >Kyriakos Kolokouris <span id="comment-time">4 months ago</span>
+              </span>
+            </p>
+          </div>
 
+          <div class="comment-value">
+            <p class="comment-made">hidden gem!</p>
 
-                    <p class="user-comment"> <span class="user-info">Kyriakos Kolokouris <span id="comment-time">4
-                                months
-                                ago</span>
+            <span class="likes">
+              <a href="#" class="like-btn"
+                ><img
+                  src="images/like.svg"
+                  alt="like"
+                  class="material-icons-comments"
+              /></a>
 
-                        </span>
-                    </p>
+              <span id="numoflikes"> 1</span>
 
-                </div>
+              <a href="#" class="unlike-btn"
+                ><img
+                  src="images/dislike.svg"
+                  alt="inlike"
+                  class="material-icons-comments"
+              /></a>
+              <span class="show reply">REPLY</span>
+            </span>
+          </div>
+        </section>
+      </main>
+      <!-- ASIDE AREA -->
+      <aside>
+        <!-- Categories -->
+        <section class="categories">
+          <section class="category-section"></section>
+          <button class="category all">All</button>
+          <button class="category">HTML</button>
+          <button class="category">Music</button>
+          <button class="category">CSS</button>
+          <button class="category">Movies</button>
+          <button class="category">DIY</button>
+          <button class="category last">Web</button>
+        </section>
+        <!-- PLAYLIST -->
+        <section class="playlist">
+          <!-- VIDEO 1-->
 
-                <div class="comment-value">
-                    <p class="comment-made"> hidden gem!</p>
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=IJ38Nqp58-A"
+              target="_blank"
+              class="thumbnail"
+              data-duration="5:56"
+            >
+              <img
+                src="/images/Junkie XL - Infinity (White Lines Soundtrack).JPG"
+                alt=""
+                class="thumbnail-image"
+              />
+            </a>
+            <div class="side-text">
+              <a href="#"> <img src="#" alt="" class="channel-icon" /> </a>
+            </div>
 
-                    <span class="likes">
-                        <a href="#" class="like-btn"><img src="images/like.svg" alt="like"
-                                class="material-icons-comments" /></a>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=IJ38Nqp58-A"
+                target="_blank"
+                class="video-title"
+                >Junkie XL - Infinity (White Lines Soundtrack)
+              </a>
+              <a href="" class="channel-name">pancar</a>
+              <div class="metadata">
+                <span> 276K views</span> •
+                <span> 11 months ago </span>
+              </div>
+            </div>
+          </article>
 
-                        <span id="numoflikes"> 1</span>
+          <!-- VIDEO 2 -->
 
-                        <a href="#" class="unlike-btn"><img src="images/dislike.svg" alt="inlike"
-                                class="material-icons-comments" /></a>
-                        <span class="show reply">REPLY</span>
-                    </span>
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=HG2d5cjk_Ts"
+              target="_blank"
+              class="thumbnail"
+              data-duration="3:41"
+            >
+              <img src="/images/venezia.jpg" alt="" class="thumbnail-image" />
+            </a>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=HG2d5cjk_Ts"
+                target="_blank"
+                class="video-title"
+                >Pupo - Su din Noi
+              </a>
+              <a href="#" class="channel-name">Pupo</a>
+              <div class="metadata">
+                <span> 343M views</span> •
+                <span> 13 years ago </span>
+              </div>
+            </div>
+          </article>
+          <!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=yydNF8tuVmU"
+              target="_blank"
+              class="thumbnail"
+              data-duration="3:46"
+            >
+              <img src="/images/daft.JPG" alt="" class="thumbnail-image" />
+            </a>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=yydNF8tuVmU"
+                target="_blank"
+                class="video-title"
+              >
+                Daft Punk - Harder, Better, Faster, Stronger
+              </a>
+              <a href="#" class="channel-name">Daft Punk</a>
+              <div class="metadata">
+                <span> 20M views</span> •
+                <span> 5 years ago </span>
+              </div>
+            </div>
+          </article>
 
+          <!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=VOFuByT5t5o"
+              target="_blank"
+              class="thumbnail"
+              data-duration="4:37"
+            >
+              <img src="/images/seba.JPG" alt="" class="thumbnail-image" />
+            </a>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=VOFuByT5t5o"
+                target="_blank"
+                class="video-title"
+              >
+                Seba Campos - Canto al Sol (Official Music Video)
+              </a>
+              <a href="" class="channel-name">Seba Campos</a>
+              <div class="metadata">
+                <span> 43K views</span> •
+                <span> 3 months ago </span>
+              </div>
+            </div>
+          </article>
+          <!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=3AJ7W-HRa8g"
+              target="_blank"
+              class="thumbnail"
+              data-duration="4:27"
+            >
+              <img
+                src="/images/spooks.JPG"
+                alt=""
+                class="thumbnail-image spooks"
+              />
+            </a>
 
-                </div>
-            </section>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=3AJ7W-HRa8g"
+                target="_blank"
+                class="video-title"
+              >
+                Spooks - Things I've Seen - Official Video [HD]
+              </a>
+              <a href="" class="channel-name">drewmatic22</a>
+              <div class="metadata">
+                <span> 2,1 M views</span> •
+                <span> 10 years ago </span>
+              </div>
+            </div>
+          </article>
 
-        </main>
+          <!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=kJQP7kiw5Fk"
+              target="_blank"
+              class="thumbnail"
+              data-duration="4:41"
+            >
+              <img src="/images/depacito.jfif" alt="" class="thumbnail-image" />
+            </a>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=kJQP7kiw5Fk"
+                target="_blank"
+                class="video-title"
+              >
+                Luis Fonsi - Despacito ft. Daddy Yankee
+              </a>
+              <a href="" class="channel-name">Luis Fonsi</a>
+              <div class="metadata">
+                <span> 7.3B views</span> •
+                <span> 4 years ago </span>
+              </div>
+            </div>
+          </article>
 
-        <aside>
-            <section class="categories">
-                <section class="category-section"></section>
-                <button class="category all">All</button>
-                <button class="category">HTML</button>
-                <button class="category">Music</button>
-                <button class="category">CSS</button>
-                <button class="category">Movies</button>
-                <button class="category">DIY</button>
-                <button class="category last">Web</button>
+          <!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=PGHJukAjVgA"
+              target="_blank"
+              class="thumbnail"
+              data-duration="2:12:41"
+            >
+              <img src="/images/vasilias.JPG" alt="" class="thumbnail-image" />
+            </a>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=PGHJukAjVgA"
+                target="_blank"
+                class="video-title"
+                >The King (2002) Ο Βασιλιάς (with english subtitles)
+              </a>
+              <a href="" class="channel-name">Lydia Efthymiou</a>
+              <div class="metadata">
+                <span> 108K views</span> •
+                <span> 6 years ago </span>
+              </div>
+            </div>
+          </article>
 
-            </section>
+<!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=WSLMN6g_Od4"
+              target="_blank"
+              class="thumbnail"
+              data-duration="3:17"
+            >
+              <img
+                src="/images/uma.JPG"
+                alt=""
+                class="thumbnail-image pulp-fiction"
+              />
+            </a>
 
-            <section class="videolist">
-                <!-- VIDEO 1-->
+            <div class="video-details">
+              <a href="#" class="video-title">
+                Pulp Fiction - Dance Scene (HQ)
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=WSLMN6g_Od4"
+                class="channel-name"
+                >manetaki</a
+              >
+              <div class="metadata">
+                <span> 33M views</span> •
+                <span> 8 years ago </span>
+              </div>
+            </div>
+          </article>
+          <!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=yZqVp5BL-PI"
+              target="_blank"
+              class="thumbnail"
+              data-duration="6:17"
+            >
+              <img src="/images/billie.JPG" alt="" class="thumbnail-image" />
+            </a>
 
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=IJ38Nqp58-A" target="_blank"
-                        class="thumbnail" data-duration="5:56">
-                        <img src="/images/Junkie XL - Infinity (White Lines Soundtrack).JPG" alt=""
-                            class="thumbnail-image">
-                    </a>
-                    <div class="side-text">
-                        <a href="#"> <img src="#" alt="" class="channel-icon"> </a>
-                    </div>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=yZqVp5BL-PI"
+                target="_blank"
+                class="video-title"
+              >
+                BAD GUY - Billie Eilish (Deborah De Luca edit)
+              </a>
+              <a href="" class="channel-name">deborah de luca</a>
+              <div class="metadata">
+                <span> 1M views</span> •
+                <span> 1 year ago </span>
+              </div>
+            </div>
+          </article>
 
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=IJ38Nqp58-A" target="_blank" class="video-title">Junkie
-                            XL - Infinity (White Lines Soundtrack)
-                        </a>
-                        <a href="" class="channel-name">pancar</a>
-                        <div class="metadata">
-                            <span> 276K views</span> •
-                            <span> 11 months ago </span>
-                        </div>
-                    </div>
-                </article>
+          <!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=MV_3Dpw-BRY"
+              target="_blank"
+              class="thumbnail"
+              data-duration="4:17"
+            >
+              <img src="/images/kavinsky.JPG" alt="" class="thumbnail-image" />
+            </a>
 
-                <!-- VIDEO 2 -->
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=MV_3Dpw-BRY"
+                target="_blank"
+                class="video-title"
+              >
+                Kavinsky - Nightcall (Drive Original Movie Soundtrack) (Official
+                Audio)
+              </a>
+              <a href="" class="channel-name">Recordmakers</a>
+              <div class="metadata">
+                <span> 223M views</span> •
+                <span> 9 years ago </span>
+              </div>
+            </div>
+          </article>
+          <!-- VIDEO -->
+          <article class="video-container">
+            <a
+              href="https://www.youtube.com/watch?v=dd-tkh2P0XU"
+              target="_blank"
+              class="thumbnail"
+              data-duration="4:05"
+            >
+              <img src="/images/kbh.jpg" alt="" class="thumbnail-image" />
+            </a>
 
-
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=HG2d5cjk_Ts" target="_blank"
-                        class="thumbnail" data-duration="3:41">
-                        <img src="/images/venezia.jpg" alt="" class="thumbnail-image">
-                    </a>
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=HG2d5cjk_Ts" target="_blank" class="video-title">Pupo -
-                            Su din Noi </a>
-                        <a href="#" class="channel-name">Pupo</a>
-                        <div class="metadata">
-                            <span> 343M views</span> •
-                            <span> 13 years ago </span>
-                        </div>
-                    </div>
-                </article>
-                <!-- VIDEO -->
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=yydNF8tuVmU" target="_blank"
-                    class="thumbnail" data-duration="3:46">
-                    <img src="/images/daft.JPG" alt="" class="thumbnail-image">
-                </a>
-                <div class="video-details">
-                    <a href="https://www.youtube.com/watch?v=yydNF8tuVmU" target="_blank" class="video-title">
-                        Daft Punk - Harder, Better, Faster, Stronger </a>
-                    <a href="#" class="channel-name">Daft Punk</a>
-                    <div class="metadata">
-                        <span> 20M views</span> •
-                        <span> 5 years ago </span>
-                    </div>
-                </div>
-            </article>
-
-                <!-- VIDEO -->
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=VOFuByT5t5o" target="_blank"
-                        class="thumbnail" data-duration="4:37">
-                        <img src="/images/seba.JPG" alt="" class="thumbnail-image">
-                    </a>
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=VOFuByT5t5o" target="_blank" class="video-title">
-                            Seba Campos - Canto al Sol (Official Music Video)
-                        </a>
-                        <a href="" class="channel-name">Seba Campos</a>
-                        <div class="metadata">
-                            <span> 43K views</span> •
-                            <span> 3 months ago </span>
-                        </div>
-                    </div>
-                </article>
-                <!-- VIDEO -->
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=3AJ7W-HRa8g" target="_blank"
-                        class="thumbnail" data-duration="4:27">
-                        <img src="/images/spooks.JPG" alt="" class="thumbnail-image spooks">
-
-                    </a>
-
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=3AJ7W-HRa8g" target="_blank" class="video-title">
-                            Spooks - Things I've Seen - Official Video [HD]
-                        </a>
-                        <a href="" class="channel-name">drewmatic22</a>
-                        <div class="metadata">
-                            <span> 2,1 M views</span> •
-                            <span> 10 years ago </span>
-                        </div>
-                    </div>
-                </article>
-
-
-                <!-- VIDEO -->
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk" target="_blank"
-                        class="thumbnail" data-duration="4:41">
-                        <img src="/images/depacito.jfif" alt="" class="thumbnail-image">
-
-                    </a>
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk" target="_blank" class="video-title">
-                            Luis Fonsi - Despacito ft. Daddy Yankee
-                        </a>
-                        <a href="" class="channel-name">Luis Fonsi</a>
-                        <div class="metadata">
-                            <span> 7.3B views</span> •
-                            <span> 4 years ago </span>
-                        </div>
-                    </div>
-
-                </article>
-
-
-                <!-- VIDEO -->
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=PGHJukAjVgA" target="_blank"
-                        class="thumbnail" data-duration="2:12:41">
-                        <img src="/images/vasilias.JPG" alt="" class="thumbnail-image">
-
-                    </a>
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=PGHJukAjVgA" target="_blank" class="video-title">The
-                            King (2002) Ο Βασιλιάς (with english subtitles)
-
-
-                        </a>
-                        <a href="" class="channel-name">Lydia Efthymiou</a>
-                        <div class="metadata">
-                            <span> 108K views</span> •
-                            <span> 6 years ago </span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=WSLMN6g_Od4" target="_blank"
-                        class="thumbnail" data-duration="3:17">
-                        <img src="/images/uma.JPG" alt="" class="thumbnail-image pulp-fiction">
-
-                    </a>
-
-                    <div class="video-details">
-                        <a href="#" class="video-title"> Pulp Fiction - Dance Scene (HQ)
-
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=WSLMN6g_Od4" class="channel-name">manetaki</a>
-                        <div class="metadata">
-                            <span> 33M views</span> •
-                            <span> 8 years ago </span>
-                        </div>
-                    </div>
-                </article>
-                <!-- VIDEO -->
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=yZqVp5BL-PI" target="_blank"
-                        class="thumbnail" data-duration="6:17">
-                        <img src="/images/billie.JPG" alt="" class="thumbnail-image">
-
-                    </a>
-
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=yZqVp5BL-PI" target="_blank" class="video-title">
-                            BAD GUY - Billie Eilish (Deborah De Luca edit) </a>
-                        <a href="" class="channel-name">deborah de luca</a>
-                        <div class="metadata">
-                            <span> 1M views</span> •
-                            <span> 1 year ago </span>
-                        </div>
-                    </div>
-                </article>
-
-
-
-                <!-- VIDEO -->
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=MV_3Dpw-BRY" target="_blank"
-                        class="thumbnail" data-duration="4:17">
-                        <img src="/images/kavinsky.JPG" alt="" class="thumbnail-image">
-
-                    </a>
-
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=MV_3Dpw-BRY" target="_blank" class="video-title">
-                            Kavinsky - Nightcall (Drive Original Movie Soundtrack) (Official Audio)
-                        </a>
-                        <a href="" class="channel-name">Recordmakers</a>
-                        <div class="metadata">
-                            <span> 223M views</span> •
-                            <span> 9 years ago </span>
-                        </div>
-                    </div>
-                </article>
-                <!-- Video -->
-                <article class="video-container"><a href="https://www.youtube.com/watch?v=dd-tkh2P0XU" target="_blank"
-                    class="thumbnail" data-duration="4:05">
-                    <img src="/images/kbh.jpg" alt="" class="thumbnail-image">
-
-                </a>
-
-                <div class="video-details">
-                    <a href="https://www.youtube.com/watch?v=dd-tkh2P0XU" target="_blank" class="video-title">
-                       Love Shop - Copenhagen Dreaming
-
-                    </a>
-                    <a href="" class="channel-name">Love Shop Topic</a>
-                    <div class="metadata">
-                        <span> 13K views</span> •
-                        <span> 7 years ago </span>
-                    </div>
-                </div>
-            </article>
-
-            </section>
-
-        </aside>
+            <div class="video-details">
+              <a
+                href="https://www.youtube.com/watch?v=dd-tkh2P0XU"
+                target="_blank"
+                class="video-title"
+              >
+                Love Shop - Copenhagen Dreaming
+              </a>
+              <a href="" class="channel-name">Love Shop Topic</a>
+              <div class="metadata">
+                <span> 13K views</span> •
+                <span> 7 years ago </span>
+              </div>
+            </div>
+          </article>
+        </section>
+      </aside>
     </div>
-</body>
-
+  </body>
 </html>
+
