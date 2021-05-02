@@ -449,8 +449,10 @@ aside {
   background-color: rgba(0, 0, 0, .85);
   color: white;
   font-size: 12px;
-  right:10%;
-  bottom: 12%
+  right:8%;
+  bottom: 12%;
+  font-family: Roboto;
+  padding: 2px;
 }
 
 
