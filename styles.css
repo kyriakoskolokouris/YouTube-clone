@@ -71,7 +71,6 @@ header {
   border: 1px solid #777;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  
 }
 
 .search-btn {
@@ -363,7 +362,6 @@ aside {
   flex-direction: row;
   position: relative;
   width: 30%;
-
 }
 
 .category-section {
@@ -446,15 +444,14 @@ aside {
 .thumbnail::before {
   content: attr(data-duration);
   position: absolute;
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, 0.85);
   color: white;
   font-size: 12px;
-  right:8%;
+  right: 8%;
   bottom: 12%;
   font-family: Roboto;
   padding: 2px;
 }
-
 
 .channel-name,
 .metadata {
@@ -481,18 +478,15 @@ aside {
 
 @media only screen and (max-width: 992px) {
   body {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 5fr auto;
-      grid-template-areas: 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr auto;
+    grid-template-areas:
       "header"
       "main"
       "aside";
+  }
 
-    }
-
-
-     
   .burger-menu {
     display: none;
   }
@@ -504,4 +498,3 @@ aside {
     margin-bottom: 10px;
   }
 }
-
